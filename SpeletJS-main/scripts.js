@@ -11,3 +11,9 @@ allCards.forEach((card) => {
         console.log("Kort vänds:", card);
     });
 });
+
+restart.addEventListener("click", () => {
+    allCards.forEach((card) => {
+        card.classList.remove("flip");
+    });
+});
