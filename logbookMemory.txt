@@ -1,0 +1,24 @@
+Logbook för Memory inlämningsuppgift. Anton Johansson
+
+dag 1: Börja kolla på uppgiften, gå igenom kod, skapa github repo och logbook.
+planering: börja uppfylla kraven för G, om tid finns, sikta på VG.
+
+Fixat dropdown på tiden och stylat den så att det ser likt ut resten av details.
+
+Dag 2: Lagt till en foreach loop och addeventlistener för click så att det går att klicka och vända alla kort. jag har problem med att jag kunde flippa korten men frågetecknet blev bara spegelvänt och flip animeringen från css kopplas ej. 
+
+Dag 3: Ändrat css för att få till så att frågetecknet blir bilden bakom när man flippar. tagit bort display block och display none och ersatt med backface-visability. Nu vänder korten som dom ska.
+Ändrat i JavaScript så att jag använder flip animeringen.
+Nu är kraven för G uppnådda, har jag tid nu kring jul så försöker jag lägga till mer.
+
+Dag 4: fixat så att restart knappen vänder tillbaka alla kort genom classList.remove("flip");
+
+dag 5: fixat timer som räknar ner och restartar när man trycker på starta om.
+
+dag 6: försökt fixa counter för antal försök, när man klickat på två kort ska det räknas upp med 1, har problem just nu att den bara räknar när man först vänt tillbaka korten.
+
+dag 7: just nu använder jag setTimeout som är en inbyggd funktion för att vända tillbaka korten automatiskt en sekund efter man klickat. Jag måste fixa matchningen av kort för nu vänder den på alla även om man får två likadana kort.
+
+Dag 8: Ändrat html och fixat så att bilderna är i en array, och shuffle funktion när spelet startas om.
+
+dag 9: fixat matchning av kort och räkning av antal försök. Nu funkar spelet, stötte på en del problem när jag bytte så bilder var i arrayer, nu i efterhand så skulle jag kanske ha börjat med det istället för details delen.
